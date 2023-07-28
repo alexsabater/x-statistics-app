@@ -1,4 +1,4 @@
-export default function StatisticsPage() {
+const StatisticsPage = () => {
 
   return (
     <div className="mt-20">
@@ -12,3 +12,5 @@ export default function StatisticsPage() {
     </div>
   )
 }
+
+export default StatisticsPage
