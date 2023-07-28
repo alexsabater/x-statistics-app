@@ -15,7 +15,24 @@
   }
 }
 
+@font-face {
+  font-family: 'n27regular';
+  src: url('/assets/fonts/n27regular/n27-regular-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('/assets/fonts/n27regular/n27-regular-webfont.woff2') format('woff2'),
+    url('/assets/fonts/n27regular/n27-regular-webfont.woff') format('woff'),
+    url('/assets/fonts/n27regular/n27-regular-webfont.ttf') format('truetype');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'n27regular';
+}
+
 body {
+  font-family: 'n27', sans-serif; 
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-color));
 }

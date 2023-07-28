@@ -1,6 +1,5 @@
-import styles from '@/styles/Home.module.css'
+export default function StatisticsPage() {
 
-export default function Home() {
   return (
     <div className="mt-20">
       <header className="flex flex-col items-center justify-center">
